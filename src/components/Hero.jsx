@@ -5,8 +5,8 @@ import Section from '@/components/Layout/Section'
 
 const Hero = () => {
   return (
-    <Section className='flex justify-between items-center'>
-      <div>
+    <Section className='flex justify-center'>
+      <div className='text-center'>
         <h1 className='font-bold text-7xl mb-8 text-black-dark'>HEADING</h1>
         <p className='w-[600px] text-black-light mb-12'>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate,
@@ -19,9 +19,6 @@ const Hero = () => {
             Start Now
           </button>
         </Link>
-      </div>
-      <div className='flex items-center justify-center h-[300px] w-[300px] bg-gray-light'>
-        IMAGE
       </div>
     </Section>
   )
